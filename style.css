@@ -1,0 +1,43 @@
+body
+{
+background-color: lightblue;
+}
+
+h1
+{
+    color: red;
+    background-color: lightgreen;
+}
+
+#show_sketch
+{
+    float: right;
+}
+#sketch_name{
+    color: blue;
+}
+canvas
+{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: animation;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes animation {
+    from {box-shadow: 1px 1px 38px darkblue;}
+    to{box-shadow: 1px 1px 38px red;}
+}
+
+#score{
+    font-size: 35px;
+    margin-right: 20px;
+    float: right;
+}
+
+p,span{
+    padding-top: 10px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
